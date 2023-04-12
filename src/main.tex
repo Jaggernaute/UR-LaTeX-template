@@ -1,0 +1,48 @@
+%! Author = jaggernaute
+%! Date = 4/12/23
+
+% Preamble
+\documentclass{config/ISTIC-UR}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{helvet}
+
+\title{\fontfamily{phv}\selectfont . \{Chapter\}.}
+\date{date}
+\author{John Doe}
+\address{ISTIC - Universite de Rennes 1, \textit{\thedate}}
+\version{1.0}
+
+
+\begin{document}
+    \begin{titlepage}
+
+        \maketitle
+
+        \center\includegraphics[height=200]{assets/logos/UnivRennes/motifs RVB/PNG/mosaïque bleu}
+
+        \begin{abstract}
+            \{
+            Quick description of the work done
+            \}
+        \end{abstract}
+        \vspace{5em}
+
+        \newpage
+
+        \tableofcontents
+
+        \vspace{5em}
+
+        \begin{contributors}
+            \vspace{.25em}
+            Redaction : \textbf{name} \\
+            Cours dispense par : \textbf{Prof. name} \\
+            Bibliographie : \textbf{Author}, Book\\
+            Travaux diriges : \textbf{Prof. name} \\
+            \vspace{.25em}
+        \end{contributors}
+
+    \end{titlepage}
+
+\end{document}
