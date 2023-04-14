@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0f3abc8-5f09-4a93-a693-a056cbaa69a9" name="Changes" comment="removed shipout page">
+    <list default="true" id="d0f3abc8-5f09-4a93-a693-a056cbaa69a9" name="Changes" comment="added BibTeX exemple">
       <change beforePath="$PROJECT_DIR$/ISTIC-template.iws" beforeDir="false" afterPath="$PROJECT_DIR$/ISTIC-template.iws" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/config/ISTICUR.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/ISTICUR.cls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.bib" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.bib" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.tex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -145,7 +144,8 @@
       <workItem from="1681418050468" duration="3980000" />
       <workItem from="1681425144887" duration="3914000" />
       <workItem from="1681444281193" duration="1179000" />
-      <workItem from="1681445492650" duration="1452000" />
+      <workItem from="1681445492650" duration="1783000" />
+      <workItem from="1681455372294" duration="1045000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit (still really early draft)">
       <created>1681306348138</created>
@@ -161,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681444582818</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added BibTeX exemple">
+      <created>1681447446550</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681447446550</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +193,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit (still really early draft)" />
     <MESSAGE value="removed shipout page" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed shipout page" />
+    <MESSAGE value="added BibTeX exemple" />
+    <option name="LAST_COMMIT_MESSAGE" value="added BibTeX exemple" />
   </component>
 </project>
