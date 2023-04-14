@@ -1,25 +1,22 @@
-%! Author = jaggernaute
-%! Date = 4/12/23
-
-% Preamble
-\documentclass{config/ISTIC-UR}
+\documentclass{config/ISTICUR}
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
 \usepackage{helvet}
+\usepackage{atbegshi}
+
+\AtBeginDocument{\AtBeginShipoutNext{\AtBeginShipoutDiscard}}
 
 \title{\fontfamily{phv}\selectfont . \{Chapter\}.}
-\date{date}
+\date{2947}
 \author{John Doe}
 \address{ISTIC - Universite de Rennes 1, \textit{\thedate}}
 \version{1.0}
 
-
 \begin{document}
+
     \begin{titlepage}
-
         \maketitle
-
-        \center\includegraphics[height=200]{assets/logos/UnivRennes/motifs RVB/PNG/mosaïque bleu}
+        \center\includegraphics[width=3in]{assets/logos/ISTIC/PNG/noir}
 
         \begin{abstract}
             \{
@@ -45,4 +42,9 @@
 
     \end{titlepage}
 
+    \chapter{Introduction}\label{ch:introduction}
+    This is a citation~\cite{ahu61}.
+
+    \bibliography{main}
+    \bibliographystyle{plain}
 \end{document}

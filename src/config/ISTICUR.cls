@@ -1,12 +1,7 @@
-%! Class = CLASS_NAME
-%! Author = jaggernaute
-%! Date = 4/12/23
-
-
 %%Identification
 %%The class identifies itself and the LaTeX version needed
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{config/ISTIC-UR}[The ISTIC-UR template]
+\ProvidesClass{config/ISTICUR}[The ISTIC-UR template]
 
 %%Preliminary definitions, needed by the options
 \LoadClass{article}
@@ -90,6 +85,7 @@
 \posttitle{\endgroup\par\end{center}\vskip 0.5em}
 
 % Header
+% header text and line
 \newcommand{\headertextcolor}{\color{ur_black}}
 \newcommand{\headertext}{\sffamily\headertextcolor}
 
@@ -103,7 +99,7 @@
 \lfoot{}
 \lfoot{}
 \cfoot{}
-\lfoot{{\headertext Fait par \{name\} \hspace{.5em}| \hspace{.5em} \thedate}}
+\lfoot{{\headertext Fait par \@author \hspace{.5em}| \hspace{.5em} \thedate}}
 \rfoot{{\headertext\thepage}}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0pt}
@@ -123,7 +119,7 @@
     \chead{}
     \lhead{}
     \rhead{}
-    \lfoot{{\headertext Fait par \author \hspace{.5em}| \hspace{.5em} \thedate}}
+    \lfoot{{\headertext Fait par \@author \hspace{.5em}| \hspace{.5em} \thedate}}
     \cfoot{}
     \rfoot{}
     \renewcommand{\headrulewidth}{0pt}
@@ -211,13 +207,14 @@
 \renewcommand{\footnoterule}{%
     \vskip 1.5em
     \kern -3pt
-        {\color{ur_black} \hrule width \textwidth height 0.4pt}
+        {\color{ur_mauve} \hrule width \textwidth height 0.4pt}
     \kern 2.6pt
 }
 \setlength{\footnotesep}{1em}
 
 
 % Title
+% font and cloor for the title
 \newcommand{\authorfont}{\sffamily\large\color{ur_black}}
 \renewcommand{\maketitle}{%
 % \BgThispage
@@ -225,7 +222,7 @@
         \vskip 1.5em
             {\noindent\huge\playfair\bfseries\color{ur_blue}\@title}
         \vskip 1.5em
-        \includegraphics[width=3in]{images/ISTIC}
+            \center\includegraphics[height=200]{assets/logos/UnivRennes/motifs RVB/PNG/mosaïque bleu}
         \vskip 1.5em
             {\authorfont \@author}
         \vskip 1.5em
