@@ -57,6 +57,7 @@
 \definecolor{ur_yellow}{HTML}{f7a600}
 
 \definecolor{ur_black}{HTML}{000000}
+\definecolor{ur_light_grey}{HTML}{c6c6c6}
 \definecolor{ur_white}{HTML}{ffffff}
 
 \newcommand{\headlinecolor}{\color{ur_blue}}
@@ -188,7 +189,7 @@
 
 % Abstract
 \mdfdefinestyle{abstract}{%
-    backgroundcolor=ur_black,
+    backgroundcolor=ur_light_grey,
     hidealllines=true,
     innertopmargin=1em,
     innerbottommargin=1em,
@@ -199,7 +200,7 @@
 }
 \renewenvironment{abstract}{%
     \begin{mdframed}[style=abstract]
-    {\sffamily\Large Abstract}
+    {\sffamily\Large Abstract:}
         \par\noindent\ignorespaces
         }{\ignorespacesafterend\end{mdframed}}
 
@@ -214,7 +215,7 @@
 
 
 % Title
-% font and cloor for the title
+% font and cloor for thfe title
 \newcommand{\authorfont}{\sffamily\large\color{ur_black}}
 \renewcommand{\maketitle}{%
 % \BgThispage
