@@ -226,9 +226,9 @@
         \vskip 1.5em
             {\authorfont \@author}
         \vskip 1.5em
-            {\authorfont \@date}
+            {\authorfont \address}
         \vskip 1.5em
-            {\authorfont \@address}
+            {\authorfont \@date}
     \end{center}
     \vskip 1.5em
 }
